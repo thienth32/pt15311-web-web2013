@@ -23,5 +23,8 @@ if($nameError.$ageError.$emailError != ""){
     header("location: info.php?nameErr=$nameError&ageErr=$ageError&emailErr=$emailError");
 }
 
-echo "nhập thong tin thanh cong";
 ?>
+<h2>Thông tin cá nhân user:</h2>
+<p>Họ và tên: <?php echo $name?></p>
+<p>Tuổi: <?php echo $age?></p>
+<p>Email: <?php echo $email?></p>
